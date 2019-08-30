@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+body {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background-image: url('./Backgrounds/portada-juego');
+  background-size: cover;
+  width: 1000px;
+  height: 500px;
+  position: relative;
+}
+
+span {
+  font-family: 'Impact', cursive;
+  background-color: rgb(218, 29, 29);
+  font-size: 2vw;
+  color: white;
+  padding: 2% 1%;
+  border: 0.2vw solid yellow;
+  border-radius: 15px;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+canvas {
+  display: none;
+}
